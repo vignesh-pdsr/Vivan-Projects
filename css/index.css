@@ -1,0 +1,104 @@
+ .navbar-brand img{ width: 125.58px; height: 50px; }
+ .banner1 .row {background-image: url("../images/aboutbanner.jpg");}
+ .banner2 .row {background-image: url("../images/skillbanner.jpg");} 
+ .banner3 .row {background-image: url("../images/socialbanner.jpg");}
+ .banner4 .row {background-image: url("../images/webbanner.jpg");}  
+ .banner5 .row {background-image: url("../images/outbanner.jpg");}
+ .banner6 .row {background-image: url("../images/contactbanner.jpg");} 
+ .banner1 .row, .banner2 .row, .banner3 .row, .banner4 .row, .banner5 .row, .banner6 .row
+ {
+  height: 500px; 
+  background-size: cover; 
+  justify-content: center; 
+  align-items: center; 
+  background-repeat: no-repeat; 
+  color: white; 
+  text-align: center; 
+  background-position: center; 
+ }
+ .banner2 p, .banner3 p, .banner4 p, .banner5 p, .banner6 p { color:white; }
+ .p4, ul, h5, p{ font-size: 15px;}
+ .text-center { font-size:20px; }
+  h2{ font-size: 24px; letter-spacing: 2px;}
+  h2::after {
+    content: '';
+    background: #fe3f40;
+    display: block;
+    height: 2px;
+    width: 45px;
+    margin: 18px auto 18px;
+}
+  ul, h1, h2, h3, h5, button{ font-family: 'oswald'; }
+  .p4, p { color: #777777; font-family: 'roboto'; font-weight: 600;}
+  .knowmore, .knowmore fa, .readmore, .readmore fa
+{ 
+  color: red; 
+  text-decoration: none; 
+  font-weight: 600;
+}
+.container-fluid { background-color: #f2f2f2; }
+.icons
+{
+  color: blue;
+  padding-bottom: 20px;
+}
+.section1 .row
+{ 
+  padding-top: 60px; 
+  padding-bottom: 60px; 
+}
+.section1
+{
+  background: url("../images/A.png");
+  background-size: 350px;
+  background-position: 50%;
+}
+.section1 h2{ padding-top: 60px; }
+.section1 .card img
+{
+  width: 60px;
+  height: 60px;
+}
+.section1 col
+{
+  background-color: white;
+}
+.section1 .card
+{ 
+  border-radius: 15px; 
+}
+.card{ justify-content: center;
+align-items: center; }
+.section2 .card{ border:none; text-align: center; }
+.section2 img{ border-radius: 50px; width: 100px; height: 97px; }
+.section-clients{ background-color: #f2f2f2; }
+
+.footer
+{
+  background:#091b29;
+  color:#777777;
+}
+.footer h3
+{
+  color:white;
+  padding-top:20px;
+  font-size: 18px;
+  text-align: center;
+}
+.copyright
+{
+  background-color: #05111d;
+  color:#777777;
+  overflow: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+   @media screen and ( max-width: 768px)
+   {
+    .banner1 .row, .banner2 .row, .banner3 .row, .banner4 .row, .banner5 .row, .banner6 .row { height:auto; padding: 75px 0px; }
+   }
+    @media screen and ( max-width: 768px)
+   {
+  .banner3 p, .banner4 p, .banner5 p, .banner6 p { font-size:12px; padding: 0px 10px; }
+   }
